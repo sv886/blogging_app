@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOLwut</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<nav class="nav">
+  <div class="header">
+    <%= link_to "LOLwut Weblog", "/"%>
+    <small>Diary of a n00b</small>
+  </div>
+  <div class="new"><%= link_to "New Entry", new_post_path, class:"btn btn-success" %></div>
+</nav>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

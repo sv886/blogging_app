@@ -1,0 +1,15 @@
+<body>
+
+  <div class="container">
+
+    <% @posts.each do |post| %>
+
+    <h2><%= link_to post.title, post_path(post_id: post.post_id)%></h2>
+    <p><%= post.body %></p>
+    <h2><%= link_to "Read More", post_path(post_id: post.post_id), class: "btn btn-primary"%></h2>
+
+    <hr>
+  <% end %>
+  </div>
+
+</body>
