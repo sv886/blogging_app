@@ -1,6 +1,6 @@
 if Post.all.blank?
-  Post.create title: "Major Keys to Success", body: "Cloth talk. They don’t want us to win. Life is what you make it, so let’s make it. The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don’t want you to eat. We don’t see them, we will never see them. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Look at the sunset, life is amazing, life is beautiful, life is what you make it.", post_id: 1
-  Post.create title: "full speed gallop", body: "Refuse to leave cardboard box unwrap toilet paper paw at beetle and eat it before it gets away why must they do that. Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap.", post_id: 2
-  Post.create title: "BREW", body: "Cream french press, medium robusta aged, black barista spoon single origin seasonal cup caffeine. Grinder seasonal, wings fair trade, rich half and half id cream rich aftertaste. Cup, sit, turkish, instant arabica sit pumpkin spice doppio.", post_id: 3
-  Post.create title: "123", body: "4567890 ayyyyyyyyyyyyyyyyyyyyyy", post_id: 4
+  Post.create title: "Vehicle", body: "Dodge Ram Pickup, $25K", post_id: 1
+  Post.create title: "Mattress", body: "Serta King Size, $2K", post_id: 2
+  Post.create title: "House", body: "3BR 2 Bath, $180K", post_id: 3
+  Post.create title: "Check in the mail", body: "Straight cash homey $2K", post_id: 4
 end

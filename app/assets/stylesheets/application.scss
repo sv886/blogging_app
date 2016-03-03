@@ -3,11 +3,15 @@
 @import 'posts';
 
 .nav {
-  background-image: url(http://sitewisedigital.com/wp-content/uploads/2015/08/keyboard-coffee-notepad.jpg);
+  background-image: url(http://st.automobilemag.com/uploads/sites/11/2011/04/2012-chrysler-300-SRT8-grille.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
   .header {
     font-size: 40px;
     display: inline-block;
